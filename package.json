@@ -1,0 +1,19 @@
+{
+  "name": "@qvvg/gen-mailbox",
+  "version": "0.1.0",
+  "description": "",
+  "author": "qvvg <npm@qv.vg>",
+  "license": "MIT",
+  "source": "src/gen-mailbox.js",
+  "main": "dist/gen-mailbox.js",
+  "module": "dist/gen-mailbox.mjs",
+  "unpkg": "dist/gen-mailbox.mjs",
+  "files": ["dist"],
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
